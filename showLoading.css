@@ -1,0 +1,18 @@
+.loading-indicator-bars {
+  background-image: url('./ajax-loader-white.gif');
+  width: 150px;
+}
+
+.loading-indicator {
+  height: 80px;
+  width: 80px;
+  background: url('./ajax-loader-white.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.loading-indicator-overlay {
+  background-color: #FFFFFF;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
